@@ -103,7 +103,7 @@ while(j <tam){
     ind[i] = i;
     /*printf("Indice i = %d\n", ind[i]);*/
     pthread_create(&(threads[i]), NULL, funcao_thread, &(ind[i]));
-    if(i>3){
+   if(i>3){
 	i=0;
     }
   }
